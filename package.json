@@ -21,6 +21,8 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
+    "html-webpack-plugin": "^5.5.0",
+    "idb": "^7.1.1",
     "if-env": "^1.0.4",
     "webpack": "^5.76.2"
   },
