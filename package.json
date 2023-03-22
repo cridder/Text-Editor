@@ -4,9 +4,9 @@
   "description": "cridder",
   "main": "server.js",
   "engines": {
-    "node": "16.19.1"
+    "node": "16.19.1",
     "npm": "8.19.3"
-  }
+  },
   "scripts": {
     "start:dev": "concurrently \"cd client && npm run dev\" \"cd server && npm run server\" ",
     "start": "npm run build && cd server && node server.js",
