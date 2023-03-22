@@ -20,8 +20,13 @@
   "author": "cridder",
   "license": "MIT",
   "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "code-mirror-themes": "^1.0.0",
+    "css-loader": "^6.7.3",
     "express": "^4.17.1",
     "html-webpack-plugin": "^5.5.0",
+    "http-server": "^14.1.1",
     "idb": "^7.1.1",
     "if-env": "^1.0.4",
     "webpack": "^5.76.2"
