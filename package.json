@@ -3,16 +3,12 @@
   "version": "1.0.0",
   "description": "cridder",
   "main": "server.js",
-  "engines": {
-    "node": "16.19.1",
-    "npm": "8.19.3"
-  },
   "scripts": {
     "start:dev": "concurrently \"cd client && npm run dev\" \"cd server && npm run server\" ",
     "start": "npm run build && cd server && node server.js",
     "server": "cd server nodemon server.js --ignore client",
     "build": "cd client && npm run build",
-    "install": "cd client && npm install",
+    "install": "cd client && npm install && cd ../server && npm install",
     "client": "cd client && npm start",
     "watch": "nodemon server.js"
   },
@@ -28,3 +24,4 @@
     "nodemon": "^2.0.4"
   }
 }
+
